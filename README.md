@@ -11,13 +11,22 @@ class:
 
 结构：
 |-- main.cpp
+
 |-- classifier.cpp
+
 |-- data_process.cpp 
+
 |-- data   
+
 |   |-- iris.data
+
 |-- header
+
 |   |-- classifier.hpp
+
 |   |-- data_process.hpp
+
 |   |-- Matrix.hpp
+
 |-- model
 
