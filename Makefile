@@ -7,5 +7,5 @@ classifier.o:classifier.cpp
 data_process.o:data_process.cpp
 	g++ -w -c data_process.cpp
 clean:
-	if [ -e main ]; then rm main; fi
-	rm *.o
+	if [ -e main.out ]; then rm main.out; fi
+	if [ -e *.o ]; then rm *.o; fi
